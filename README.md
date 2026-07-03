@@ -1,8 +1,8 @@
-# Pocket Lab Power Supply
+# Pocket Lab Power Supply with STM32 MCU
 
 THIS IS A FORK AND THE ORIGINAL VERSION IS HERE: https://github.com/BenMakesEverything/Pocket-Lab-Power-Supply/tree/main
 A lab bench power supply, but pocket-sized and battery powered. (This repo is currently WIP)
-The main MCU is STM32L031G6U6 for bigger battery life.
+The main MCU is STM32L031G6U6 for longer battery life.
 
 ![Project photo](docs/images/photo-main.jpg)
 
