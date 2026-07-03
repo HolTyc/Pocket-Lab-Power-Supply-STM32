@@ -1,6 +1,8 @@
 # Pocket Lab Power Supply
 
+THIS IS A FORK AND THE ORIGINAL VERSION IS HERE: https://github.com/BenMakesEverything/Pocket-Lab-Power-Supply/tree/main
 A lab bench power supply, but pocket-sized and battery powered. (This repo is currently WIP)
+The main MCU is STM32L031G6U6 for bigger battery life.
 
 ![Project photo](docs/images/photo-main.jpg)
 
@@ -13,7 +15,7 @@ A 4S Lithium Ion-based Battery Bank which can act as a portable Lab-Bench Power 
 - Adjustable output voltage and current limit
 - Battery powered
 - USB-C/PD charging
-- 8-Character 5x7 LED Matrix Display 
+- 0.91 OLED display
 - Open hardware and firmware
 
 ## Repository Structure:
