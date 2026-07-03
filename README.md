@@ -6,7 +6,7 @@ A lab bench power supply, but pocket-sized and battery powered. (This repo is cu
 
 ## What it is:
 
-A 4S Lithium Ion-based Battery Bank which can act as a portable Lab-Bench Power Supply.
+A 4S Lithium Ion-based Battery Bank which can act as a portable Lab-Bench Power Supply. Designed for use with 4S lithium-ion battery packs.
 
 ## Features:
 
@@ -20,7 +20,7 @@ A 4S Lithium Ion-based Battery Bank which can act as a portable Lab-Bench Power 
 
 - `/hardware` - PCB, schematic, BOM, Gerbers, CAD
 - `/firmware` - MCU firmware and utilities
-- `/docs` - build guide, diagrams, images, notes
+- `/docs` - build guide, diagrams, images, notes (WIP)
 
 ## Documentation:
 
@@ -29,6 +29,12 @@ Coming soon!
 ## Safety Notice:
 
 This project involves lithium-ion batteries and power electronics. Build and use at your own risk.
+
+The PCB was designed for use with 4S battery packs. The BQ25792 will charge the pack up to 16.8V.
+
+# IF YOU WANT TO USE ANOTHER CELL CONFIGURATION YOU MUST CHANGE THIS! OTHERWISE THE CELLS WILL BE OVERCHARGED AND DAMAGED!
+
+Pin 20 (PROG) on the BQ25792 is the thing you need to adjust.
 
 ## License!
 
