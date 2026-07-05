@@ -24,7 +24,9 @@ A 4S Lithium Ion-based Battery Bank which can act as a portable Lab-Bench Power 
 
 ## Documentation:
 
-Coming soon!
+The following flowchart gives an overview of the way the main components are connected.
+
+![Flowchart](docs/images/flowchart.png)
 
 ## Safety Notice:
 
@@ -32,7 +34,9 @@ This project involves lithium-ion batteries and power electronics. Build and use
 
 The PCB was designed for use with 4S battery packs. The BQ25792 will charge the pack up to 16.8V.
 
-# IF YOU WANT TO USE ANOTHER CELL CONFIGURATION YOU MUST CHANGE THIS! OTHERWISE THE CELLS WILL BE OVERCHARGED AND DAMAGED!
+IF YOU WANT TO USE ANOTHER CELL CONFIGURATION YOU MUST CHANGE THIS! OTHERWISE THE CELLS WILL BE OVERCHARGED AND DAMAGED!
+
+YOU MUST USE A PACK THAT CONTAINS A BMS! THIS DESIGN DOES NOT INCLUDE ONE.
 
 Pin 20 (PROG) on the BQ25792 is the thing you need to adjust.
 
