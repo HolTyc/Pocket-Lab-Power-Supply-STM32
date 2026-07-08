@@ -24,6 +24,8 @@ A 4S Lithium Ion-based Battery Bank which can act as a portable Lab-Bench Power 
 
 ## Documentation:
 
+For common questions, see the [FAQ](docs/FAQ.md). This is a work in progress and I will add more.
+
 The following flowchart gives an overview of the way the main components are connected.
 
 ![Flowchart](docs/images/flowchart.png)
