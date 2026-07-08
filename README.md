@@ -22,6 +22,19 @@ A 4S Lithium Ion-based Battery Bank which can act as a portable Lab-Bench Power 
 - `/firmware` - MCU firmware and utilities
 - `/docs` - build guide, diagrams, images, notes (WIP)
 
+## Parts List
+
+- Main PCB
+- "Backpack" PCB for Display Module
+- Display: HCMS-2971 or HCMS-2972 or HCMS-2973 or HCMS-2974 or HCMS-2975
+- 4S 21700 Battery with integrated BMS (XH2.54mm connector) [LINK](https://www.foxbuying.com/21700-14-8v-4s1p-4500mah-rechargeable-power-lithium-battery-pack-with-customised-connetor.html)
+- Faceplate
+- 3D Printable Body
+- 4x M3 Threaded Inserts
+- 4x M3 Hex-head/socket bolts (16mm threaded portion)
+- Plastic cap for button
+- Encoder Knob [LINK](https://www.adafruit.com/product/5531)
+
 ## Documentation:
 
 For common questions, see the [FAQ](docs/FAQ.md). This is a work in progress and I will add more.
