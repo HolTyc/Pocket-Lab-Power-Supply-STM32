@@ -24,9 +24,26 @@ A 4S Lithium Ion-based Battery Bank which can act as a portable Lab-Bench Power 
 - `/firmware` - MCU firmware and utilities
 - `/docs` - build guide, diagrams, images, notes (WIP)
 
+## Parts List
+
+- Main PCB
+- "Backpack" PCB for Display Module
+- Display: HCMS-2971 or HCMS-2972 or HCMS-2973 or HCMS-2974 or HCMS-2975
+- 4S 21700 Battery with integrated BMS (XH2.54mm connector) [LINK](https://www.foxbuying.com/21700-14-8v-4s1p-4500mah-rechargeable-power-lithium-battery-pack-with-customised-connetor.html)
+- Faceplate
+- 3D Printable Body
+- 4x M3 Threaded Inserts
+- 4x M3 Hex-head/socket bolts (16mm threaded portion)
+- Plastic cap for button
+- Encoder Knob [LINK](https://www.adafruit.com/product/5531)
+
 ## Documentation:
 
-Coming soon!
+For common questions, see the [FAQ](docs/FAQ.md). This is a work in progress and I will add more.
+
+The following flowchart gives an overview of the way the main components are connected.
+
+![Flowchart](docs/images/flowchart.png)
 
 ## Safety Notice:
 
@@ -34,9 +51,11 @@ This project involves lithium-ion batteries and power electronics. Build and use
 
 The PCB was designed for use with 4S battery packs. The BQ25792 will charge the pack up to 16.8V.
 
-# IF YOU WANT TO USE ANOTHER CELL CONFIGURATION YOU MUST CHANGE THIS! OTHERWISE THE CELLS WILL BE OVERCHARGED AND DAMAGED!
+IF YOU WANT TO USE ANOTHER CELL CONFIGURATION YOU MUST CHANGE THIS! OTHERWISE THE CELLS WILL BE OVERCHARGED AND DAMAGED!
 
-Pin 20 (PROG) on the BQ25792 is the thing you need to adjust.
+(Pin 20 "PROG" on the BQ25792 is the thing you need to adjust.)
+
+YOU MUST USE A PACK THAT CONTAINS A BMS! THIS DESIGN DOES NOT INCLUDE ONE.
 
 ## License!
 
