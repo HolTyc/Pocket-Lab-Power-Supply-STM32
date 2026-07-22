@@ -1,4 +1,6 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2040_minimal_r2.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "RP2040_minimal") (type "KiCad") (uri "${KIPRJMOD}/RP2040_minimal_r2.pretty") (options "") (descr "") (disabled))
+	(lib (name "Testing_project") (type "KiCad") (uri "/home/vakhaib/Desktop/aplikace/honza/KiCad/Testing_project.pretty") (options "") (descr ""))
+	(lib (name "EdgeConnect") (type "KiCad") (uri "/home/vakhaib/Desktop/aplikace/honza/KiCad/EdgeConnect-master/kicad/lib/EdgeConnect.pretty") (options "") (descr ""))
 )
